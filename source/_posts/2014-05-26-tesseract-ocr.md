@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Tesseract-OCR"
+title: "开源OCR引擎Tesseract-OCR"
 excerpt: "本文主要介绍如何在Debian Wheezy上安装Tesseract OCR及其开发环境。"
 date: 2014-05-26 17:54:01 +0800
 category:
 - software
 tags:
 - linux
-- oc
+- ocr
 - tutorial
 ---
 

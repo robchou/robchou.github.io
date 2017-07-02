@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Fcitx on Debian Wheezy"
+title: "Debian Wheezy安装Fcitx"
 excerpt: "在Debian Wheezy上安装Fcitx记录"
 date: 2014-06-08 17:54:01 +0800
 category:

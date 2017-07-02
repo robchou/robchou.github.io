@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Use repo to manage project"
+title: "使用Repo管理Android源码"
 excerpt: "本文主要介绍如何利用repo管理小团队内部的Android代码"
 date: 2016-07-24 17:54:01 +0800
 category:

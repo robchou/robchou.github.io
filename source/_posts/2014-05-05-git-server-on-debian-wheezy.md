@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Git Server on Debian Wheezy"
+title: "Git服务器搭建"
 excerpt: "本文主要介绍如何利用git与ssh在debian wheezy上搭建git服务器..."
 date: 2014-05-05 17:54:01 +0800
 category:
