@@ -4,7 +4,7 @@
 
 # Site
 title: LESS IS MORE
-subtitle: KEEP IT SIMPLE , STUPID !
+subtitle: KEEP IT SIMPLE, STUPID!
 description:
 author: Robin Chou
 language: zh-Hans
@@ -71,3 +71,12 @@ deploy:
   type: git
   repo: git@github.com:robchou/robchou.github.io.git
   branch: master
+
+# Algolia
+
+algolia:
+  applicationID: 'N5Z42L7QA5'
+  apiKey: '7d2817373a44b0fe124e7b6583effe5a'
+  adminApiKey: 'c923d01024f8c6e793abec8f7759d00f'
+  indexName: 'hexo-algolia'
+  chunkSize: 5000
