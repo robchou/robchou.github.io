@@ -92,3 +92,9 @@ git clone https://github.com/kimziv/oglsuperbible5.git
 #### 15. 编译并运行
 
 ![run](/assets/opengl-superbible-5e-env/run.png)
+
+### 源码下载
+
+```sh
+git clone https://github.com/opengl-superbible5e-learning/Triangle
+```
