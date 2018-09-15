@@ -2,22 +2,23 @@
 title: macOS High Sierra搭建rtmp服务器
 date: 2017-11-26 22:58:40
 tags:
+- rtmp
 ---
 
-### 系统环境
-```bash
-macOS High Sierra 10.13.6
+### Environment
+```sh
+macOS High Sierra 10.13.6 Xcode 9.4.1
 ```
 
 ### 安装nginx
-```bash
+```sh
 brew tap homebrew/nginx
 brew install nginx-full --with-rtmp-module
 ```
 
 ### 修改nginx配置文件
 
-```bash
+```sh
 ## /usr/local/etc/nginx/nginx.conf
 rtmp {
    server {
@@ -38,22 +39,22 @@ rtmp {
 ```
 
 ### 启动nginx及重新加载配置文件
-```bash
+```sh
 nginx
 nginx -s reload
 ```
 
 ### 测试nginx
-```bash
+```sh
 http://localhost:8080
 ```
 
 ### FFMpeg推流
-```bash
+```sh
 ffmpeg -re -i ./sintel.h264 -vcodec libx264 -vprofile baseline -acodec aac -ar 44100 -strict -2 -ac 1 -f flv -s 640x360 -q 10 rtmp://localhost:1935/hls/test
 ```
 ### ffplay查看
-```bash
+```sh
 ffplay rtmp://localhost:1935/hls/test
 ```
 
