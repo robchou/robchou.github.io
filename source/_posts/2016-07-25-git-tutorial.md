@@ -38,10 +38,10 @@ CVS/SVN与Git最大的区别就是：CVS及SVN都是集中式的版本控制系�
 ### Git应用场景
 
 #### 1. Android源码管理
-这里可参考我以前写的一篇[教程](https://robchou.github.io/software/2014/07/24/use-repo-to-manage-project.html)。
+这里可参考我以前写的一篇[教程](https://robchou.github.io/2016/07/24/2014-07-24-use-repo-to-manage-project/)。
 
 #### 2. Git服务器搭建
-这里可参考我以前写的一篇[教程](https://robchou.github.io/software/2014/05/05/git-server-on-debian-wheezy.html)。
+这里可参考我以前写的一篇[教程](https://robchou.github.io/2014/05/05/2014-05-05-git-server-on-debian-wheezy/)。
 
 #### 3. 基于Git的在线代码托管网站
 目前有很多基于Git的代码托管服务，国外有 [Github](https://www.github.com)， [Bitbucket](https://bitbucket.org/)
