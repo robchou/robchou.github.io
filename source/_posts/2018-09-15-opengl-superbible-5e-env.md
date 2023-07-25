@@ -49,35 +49,35 @@ git clone https://github.com/kimziv/oglsuperbible5.git
 
 #### 5. 创建一个Xcode cli项目
 
-![create-cli-project](/assets/opengl-superbible-5e-env/creat-cli-project.png)
+![create-cli-project](/assets/images/2018-09-15-opengl-superbible-5e-env/creat-cli-project.png)
 
 #### 6. 创建Triangle工程
 
-![create-triangle-project](/assets/opengl-superbible-5e-env/create-triangle-project.png)
+![create-triangle-project](/assets/images/2018-09-15-opengl-superbible-5e-env/create-triangle-project.png)
 
 #### 7. 选择deployment target
 
-![choose-deploy-target](/assets/opengl-superbible-5e-env/choose-deploy-target.png)
+![choose-deploy-target](/assets/images/2018-09-15-opengl-superbible-5e-env/choose-deploy-target.png)
 
 #### 8. 添加frameworks依赖
 
-![linked-frameworks](/assets/opengl-superbible-5e-env/linked-frameworks.png)
+![linked-frameworks](/assets/images/2018-09-15-opengl-superbible-5e-env/linked-frameworks.png)
 
 #### 9. 添加OpenGL framework
 
-![linked-frameworks](/assets/opengl-superbible-5e-env/link-opengl.png)
+![linked-frameworks](/assets/images/2018-09-15-opengl-superbible-5e-env/link-opengl.png)
 
 #### 10. 添加glut framework
 
-![linked-frameworks](/assets/opengl-superbible-5e-env/link-glut.png)
+![linked-frameworks](/assets/images/2018-09-15-opengl-superbible-5e-env/link-glut.png)
 
 #### 11. 添加头文件搜索路径
 
-![header-search-paths](/assets/opengl-superbible-5e-env/header-search-paths.png)
+![header-search-paths](/assets/images/2018-09-15-opengl-superbible-5e-env/header-search-paths.png)
 
 #### 12. 添加库文件搜索路径
 
-![header-search-paths](/assets/opengl-superbible-5e-env/library-search-paths.png)
+![header-search-paths](/assets/images/2018-09-15-opengl-superbible-5e-env/library-search-paths.png)
 
 #### 13. 添加链接选项
 
@@ -85,13 +85,13 @@ git clone https://github.com/kimziv/oglsuperbible5.git
 -lGLEW -lgltools
 ```
 
-![header-search-paths](/assets/opengl-superbible-5e-env/linker-flags.png)
+![header-search-paths](/assets/images/2018-09-15-opengl-superbible-5e-env/linker-flags.png)
 
 #### 14. 使用 *oglsuperbible5/Src/Chapter02/Triangle/Triangle.cpp*替换*main.cpp*
 
 #### 15. 编译并运行
 
-![run](/assets/opengl-superbible-5e-env/run.png)
+![run](/assets/images/2018-09-15-opengl-superbible-5e-env/run.png)
 
 ### 源码下载
 
